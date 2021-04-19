@@ -1,4 +1,4 @@
-package com.example.pdfviwerwithoutdownload;
+package com.tampil.pdf;
 
 import android.content.Intent;
 import android.graphics.Canvas;
@@ -23,7 +23,6 @@ import com.krishna.fileloader.pojo.FileResponse;
 import com.krishna.fileloader.request.FileLoadRequest;
 
 import java.io.File;
-import java.util.List;
 
 public class PDFViwerActivity extends AppCompatActivity {
 

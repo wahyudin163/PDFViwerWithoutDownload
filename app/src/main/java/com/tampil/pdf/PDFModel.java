@@ -1,6 +1,4 @@
-package com.example.pdfviwerwithoutdownload;
-
-import android.net.Uri;
+package com.tampil.pdf;
 
 public class PDFModel {
 

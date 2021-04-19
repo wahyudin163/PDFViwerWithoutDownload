@@ -1,7 +1,6 @@
-package com.example.pdfviwerwithoutdownload;
+package com.tampil.pdf;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -23,13 +22,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.RV);
 
         list = new ArrayList<>();
-        list.add(new PDFModel("PDF One","https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"));
-        list.add(new PDFModel("PDF Two", "http://enos.itcollege.ee/~jpoial/allalaadimised/reading/Android-Programming-Cookbook.pdf"));
-        list.add(new PDFModel("PDF Three","https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"));
-        list.add(new PDFModel("PDF Four","http://www.africau.edu/images/default/sample.pdf"));
-        list.add(new PDFModel("PDF Five","http://www.pdf995.com/samples/pdf.pdf"));
-        list.add(new PDFModel("PDF Six","https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"));
-        list.add(new PDFModel("PDF Seven","https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"));
+        list.add(new PDFModel("Buku 1","https://sman3simpanghilir.sch.id/download/file/XI_Matematika_Peminatan_KD_3_1_Persamaan_Trigonometri.pdf"));
+        list.add(new PDFModel("Buku 2", "http://enos.itcollege.ee/~jpoial/allalaadimised/reading/Android-Programming-Cookbook.pdf"));
+        list.add(new PDFModel("Buku 3","https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"));
+        list.add(new PDFModel("Buku 4","http://www.africau.edu/images/default/sample.pdf"));
+        list.add(new PDFModel("Buku 5","http://www.pdf995.com/samples/pdf.pdf"));
+        list.add(new PDFModel("Buku 6","https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"));
+        list.add(new PDFModel("Buku 7","https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf"));
 
         recyclerView.setLayoutManager(new GridLayoutManager(this,2));
 
