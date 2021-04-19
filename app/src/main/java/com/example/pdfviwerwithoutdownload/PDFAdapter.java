@@ -1,4 +1,4 @@
-package com.tampil.pdf;
+package com.example.pdfviwerwithoutdownload;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

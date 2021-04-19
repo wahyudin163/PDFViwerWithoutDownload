@@ -1,4 +1,4 @@
-package com.tampil.pdf;
+package com.example.pdfviwerwithoutdownload;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

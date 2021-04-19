@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.tampil.pdf">
+    package="com.example.pdfviwerwithoutdownload">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.tampil.pdf.PDFActivity"/>
-        <activity android:name="com.tampil.pdf.PDFViwerActivity" />
-        <activity android:name="com.tampil.pdf.MainActivity">
+        <activity android:name="com.example.pdfviwerwithoutdownload.PDFActivity"/>
+        <activity android:name="com.example.pdfviwerwithoutdownload.PDFViwerActivity" />
+        <activity android:name="com.example.pdfviwerwithoutdownload.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

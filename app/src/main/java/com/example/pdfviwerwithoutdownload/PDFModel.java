@@ -1,4 +1,4 @@
-package com.tampil.pdf;
+package com.example.pdfviwerwithoutdownload;
 
 public class PDFModel {
 
